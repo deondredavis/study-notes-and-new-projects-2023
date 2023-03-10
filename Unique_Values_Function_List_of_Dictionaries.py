@@ -1,4 +1,6 @@
 # Real World Data from The Ohio State University (https://courses.osu.edu/)
+# The purpose of this exercise is to create a list of dictionaries and return a list of unique values from the dictionary by using one of its keys as a parameter.
+
 
 """
 def unique_values(data, key):
