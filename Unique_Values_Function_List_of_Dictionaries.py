@@ -8,7 +8,7 @@ def unique_values(data, key):
             value = element[key]
             if value not in new_unique_values:
                 new_unique_values.add(value)
-    print(new_unique_values)
+    return new_unique_values
 """
 
 
@@ -17,7 +17,7 @@ def unique_values(data, key):
     for element in data:
         if element[key] not in unique_values_2:
             unique_values_2.append(element[key])
-    print(unique_values_2)
+    return unique_values_2
 
 
 data = [
@@ -52,5 +52,5 @@ data = [
     }
 ]
 
-unique_values(data, "course_number")
+print(unique_values(data, "course_number"))
 
